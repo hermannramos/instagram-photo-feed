@@ -1,0 +1,49 @@
+body {
+    margin: 0 auto;
+    background-color: #eeeeee;
+    font-family: "Helvetica";
+}
+div{
+    background-color: white;
+}
+.post {
+    border-radius: 20px;
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+.header {
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.intro {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px 15px 25px;
+    border-radius: 20px;
+}
+.intro h3 {
+    margin: 0;
+}
+.intro p {
+    margin: 0;
+    color: grey;
+}
+.photo {
+    width: 100%;
+    overflow: hidden;
+}
+.photo img {
+    width: 100%;
+    overflow: hidden;
+    display: block;
+}
+.description {
+    padding: 5px 15px 5px 15px;
+    border-radius: 20px;
+}
